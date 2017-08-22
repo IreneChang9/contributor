@@ -1,0 +1,67 @@
+
+  /*background-size的cover特定值会保持图像本身的宽高比例，
+  将图片缩放到正好完全覆盖定义背景的区域*/
+* {
+    margin:0;
+    padding:0;
+}
+.big {
+	width: 100%;
+    height: 700px;
+}
+.logo {
+    padding-top: 55px;
+    margin-left: 200px;
+}
+.rightDiv {
+    width: 900px;
+    height: 439px;
+    display: inline-block;
+    position: relative;
+    top: -418px;
+    margin-left: 300px;
+}
+.banner {
+	width: 900px;
+	height: 387px;
+	background: url(../images/banner0.jpg);
+
+}
+.banner li {
+    width: 10px;
+    height: 10px;
+    border: 1px solid #000;
+    border-radius: 50%;
+    display: inline-block;
+    position: relative;
+    top: 336px;
+    left: 358px;
+}
+.banner .slider-bar .actived {
+	background-color: #f8570A;
+}
+
+/*搜索框*/
+.search {
+    display: inline-block;
+    padding-left: 62%;
+}
+
+.arrow{
+    margin-left: 90px;
+    margin-top: 10px;
+}
+.footer {
+        width: 100%;
+        margin:auto;
+        /*height: 150px;*/
+        color: #fff;
+    }
+    .footer p{
+        font-size: 18px;
+        text-align: center;
+    }
+    .phone_two p{
+       display:inline-block;
+      padding-left: 180px;
+    }
